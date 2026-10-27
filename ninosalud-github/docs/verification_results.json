@@ -1,0 +1,44 @@
+{
+  "release": "1.2",
+  "prepared_date": "2026-10-27",
+  "scope": "Technical and calculation checks; not scientific peer review or clinical validation.",
+  "checks": {
+    "primary_input_rebuild_rows": 3344,
+    "primary_input_exact_match": true,
+    "eda_refit_and_predictions_match": true,
+    "robustness_and_regional_outputs_match": {
+      "eda_climate_ablation_metrics.csv": true,
+      "eda_climate_ablation_predictions_2023_2025.csv": true,
+      "dengue_2025_sensitivity.csv": true,
+      "dengue_2025_quality_by_province.csv": true,
+      "forecast_matched_evaluation.csv": true,
+      "forecast_province_year_evaluation.csv": true,
+      "regional_dengue_timing_by_province_2023_2026.csv": true,
+      "regional_dengue_delay_distribution_2023_2026.csv": true,
+      "regional_dengue_visits_monthly_2023_2026.csv": true,
+      "forecast_cluster_uncertainty.json": true
+    },
+    "unit_tests_passed": 10,
+    "dynamic_tabs_tested": 7,
+    "selector_option_changes_tested": 71,
+    "browser_javascript_errors": 0,
+    "separate_evidence_page_checked": true,
+    "video_duration_seconds": 123.12,
+    "video_dimensions": "1280x840",
+    "video_codec": "H.264",
+    "video_audio": "none; English on-screen captions and SRT supplied",
+    "brief_pdf_pages": 1,
+    "research_pdf_pages": 4,
+    "italian_guide_pdf_pages": 2,
+    "devpost_story_docx_pages": 2,
+    "raw_case_level_files_included": false
+  },
+  "browser_boundary": "Exact bundled HTML and JavaScript loaded into Chromium DOM because local URL navigation is blocked in the preparation environment. Not a hosted GitHub Pages or Safari deployment test.",
+  "remaining_owner_actions": [
+    "Verify event-specific rules, mandatory form fields, student eligibility and video limits in DSH Devpost; event pages could not be fetched.",
+    "Publish repository and GitHub Pages; check public URLs and links.",
+    "Upload demo video to YouTube or Vimeo and verify judge access.",
+    "Complete and submit Devpost from the participant account; preserve confirmation."
+  ],
+  "upstream_data_terms": "Code/text MIT does not relicense government source data. Complete upstream redistribution terms were not independently certified."
+}

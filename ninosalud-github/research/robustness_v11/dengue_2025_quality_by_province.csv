@@ -1,0 +1,9 @@
+province,year,raw_rows,missing_or_invalid_dates,negative_onset_to_visit,positive_over_90,entry_before_visit,visit_outside_2025
+AYABACA,2025,129,0,0,12,0,9
+HUANCABAMBA,2025,275,0,0,26,0,15
+MORROPON,2025,928,0,0,5,1,14
+PAITA,2025,635,0,0,0,0,3
+PIURA,2025,5507,0,0,39,10,37
+SECHURA,2025,418,0,0,0,2,2
+SULLANA,2025,3788,0,0,1,6,26
+TALARA,2025,443,0,0,0,7,1

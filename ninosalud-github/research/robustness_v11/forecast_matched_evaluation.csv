@@ -1,0 +1,5 @@
+period,n,persistence_MAE,EDA_only_RF_MAE,climate_RF_MAE,climate_RF_minus_persistence_MAE,climate_RF_minus_EDA_only_RF_MAE
+2023-2025,992,45.088,52.763,50.294,5.206,-2.469
+2023,352,55.125,59.225,57.266,2.141,-1.959
+2024,352,41.639,54.683,52.464,10.825,-2.219
+2025,288,37.035,42.518,39.12,2.086,-3.398

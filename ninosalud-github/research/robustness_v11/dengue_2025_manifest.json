@@ -1,0 +1,18 @@
+{
+  "year": "2025 year-coded data ONLY",
+  "scoped_rows": 12123,
+  "cut_dates": {
+    "20260702": 12123
+  },
+  "sensitivity_thresholds_days": [
+    30,
+    60,
+    90,
+    180,
+    365
+  ],
+  "source_denomination": "reported regional confirmed plus possible dengue records, no diagnostic status in CSV",
+  "variable_meaning": "FECHA_NOTIFICACION defined by source dictionary as visit to health centre",
+  "privacy": "only province-level summaries exported; no raw person-level records in release",
+  "warning": "The interval is neither a validated attendance delay nor a report lag. Thresholds are exploratory, not clinical cutoffs. Within-year restriction is an additional sensitivity check."
+}

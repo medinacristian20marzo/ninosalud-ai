@@ -1,0 +1,24 @@
+{
+  "dataset": "Matched historic forecasts (archived 2023-2025 test; previously inspected)",
+  "bootstrap": "resampling entire province-year clusters with replacement",
+  "cluster_count": 24,
+  "n_rows": 992,
+  "bootstrap_iterations": 5000,
+  "random_seed": 20261027,
+  "climate_RF_minus_persistence_MAE": 5.206,
+  "CI95_cluster_bootstrap_climate_RF_minus_persistence_MAE": [
+    -0.474,
+    13.349
+  ],
+  "climate_RF_minus_EDA_only_RF_MAE": -2.469,
+  "CI95_cluster_bootstrap_climate_RF_minus_EDA_only_RF_MAE": [
+    -5.223,
+    -0.14
+  ],
+  "limitations": [
+    "Only 24 province-year clusters, possibly correlated between provinces and years.",
+    "Intervals are approximate, not clinical or prospective validation.",
+    "Holdout has already been inspected, so comparisons are exploratory.",
+    "No choice of model or threshold should be justified by this dataset alone."
+  ]
+}

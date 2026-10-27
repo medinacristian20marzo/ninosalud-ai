@@ -1,0 +1,56 @@
+[
+  {
+    "filename": "clima_departamento.xlsx",
+    "sha256": "fd5fd2e4fc2f4cf4ab453e13f5f408afcfdd6db07a64cdd905d7c27020232529",
+    "bytes": 2935366,
+    "included_raw": false
+  },
+  {
+    "filename": "datos_abiertos_vigilancia_dengue_2000_2025_0.csv",
+    "sha256": "7865e8b2f5a7aef1e8dce159444891f2c2e59b311d574f28c55aaca5a9abb8ba",
+    "bytes": 117866478,
+    "included_raw": false
+  },
+  {
+    "filename": "datos_abiertos_vigilancia_edas_2000_2024.csv",
+    "sha256": "e79e92459b8f24c9a10f8a67a971395be0d7c61574707e0da1418ce0f704084d",
+    "bytes": 110847731,
+    "included_raw": false
+  },
+  {
+    "filename": "datos_abiertos_vigilancia_zoonosis_2000_2024.csv",
+    "sha256": "24d0e5d89ead159dad8e48559ba40b70a69d4b0bb9fdbd034a577da495d5ac1e",
+    "bytes": 11719207,
+    "included_raw": false
+  },
+  {
+    "filename": "dataset_dengue_actualizado.csv",
+    "sha256": "7034519f94396df2077657c453897b1972893f1e7be724c8c8bcb0ce7cc8d093",
+    "bytes": 5922400,
+    "included_raw": false
+  },
+  {
+    "filename": "Formato_DiccionarioDatos_DENGUE_0.xlsx",
+    "sha256": "863ee4c246dbbf99a5a38cbd676d360d87363a10460c6b5ba8d7ad2ce3f3caa5",
+    "bytes": 55434,
+    "included_raw": false
+  },
+  {
+    "filename": "RENIPRESS_30-09-2026.csv",
+    "sha256": "89040c55e9c53398465975171fb348109fd11b787d238970161a243115070823",
+    "bytes": 19852149,
+    "included_raw": false
+  },
+  {
+    "filename": "Riesgo_Inund_Distritos.shp",
+    "sha256": "dddb287d3bb04f62c52ecc6251808baea471cb64e5ae8e835e993a50134032ce",
+    "bytes": 27381532,
+    "included_raw": false
+  },
+  {
+    "filename": "Riesgo_MMasa_Distritos.shp",
+    "sha256": "154ef83375d8d7268d1dcd475a8584b009948ffcbe530a0a4b991b0ec2e0ebf2",
+    "bytes": 27381532,
+    "included_raw": false
+  }
+]

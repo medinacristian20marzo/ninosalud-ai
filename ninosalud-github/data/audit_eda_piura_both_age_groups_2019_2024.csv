@@ -1,0 +1,13 @@
+year,age_group,cdc_episodes,minsa_old_csv_episodes,cdc_minus_minsa,percent_difference_vs_minsa,cdc_hospitalizations,cdc_deaths,cdc_episode_rate_per_1000_age_group,audit_status
+2019,under_5,27386,27181,205,0.754,97,3,153.47,small_version_difference_unreconciled
+2019,age_5_plus,41935,41710,225,0.539,304,2,24.33,small_version_difference_unreconciled
+2020,under_5,14846,14718,128,0.87,60,2,81.51,small_version_difference_unreconciled
+2020,age_5_plus,20271,20085,186,0.926,94,0,10.86,small_version_difference_unreconciled
+2021,under_5,19603,19424,179,0.922,69,0,105.91,small_version_difference_unreconciled
+2021,age_5_plus,25294,24694,600,2.43,86,1,13.38,small_version_difference_unreconciled
+2022,under_5,24519,24370,149,0.611,24,0,131.39,small_version_difference_unreconciled
+2022,age_5_plus,32894,32699,195,0.596,70,0,17.11,small_version_difference_unreconciled
+2023,under_5,30778,30604,174,0.569,77,1,168.18,small_version_difference_unreconciled
+2023,age_5_plus,54509,54311,198,0.365,102,0,27.99,small_version_difference_unreconciled
+2024,under_5,33216,33059,157,0.475,307,0,188.86,small_version_difference_unreconciled
+2024,age_5_plus,57363,15451,41912,271.258,224,0,29.23,incomplete_Minsa_2024_age5plus
