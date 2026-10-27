@@ -1,0 +1,30 @@
+{
+  "app_version": "1.2",
+  "assembled_date": "2026-10-27",
+  "status": "Independent undergraduate-level retrospective research prototype; not a medical device",
+  "datasets": {
+    "eda_clima": "CDC Peru Observatorio de Clima y Salud province-week export 2018-2025",
+    "eda_age": "CDC Peru dashboard annual age-group summaries, user-provided images/table",
+    "dengue": "MINSA individual dengue reporting CSV historical 2000-2025, aggregated to province-week",
+    "territory": "CENEPRED 2026 physical hazard scenarios; RENIPRESS 2026; INEI projections"
+  },
+  "verified_annual_eda": {
+    "2018": 60817,
+    "2019": 69299,
+    "2020": 35117,
+    "2021": 44897,
+    "2022": 57413,
+    "2023": 85287,
+    "2024": 90579,
+    "2025": 82623
+  },
+  "known_issues": [
+    "Historical EDA age5+ 2024 national CSV incomplete",
+    "2025 weekly observed climate partly missing",
+    "Dengue notification absence not proof of zero incidence",
+    "2026 CENEPRED/RENIPRESS not contemporaneous with historic outcomes",
+    "Exploratory EDA evaluation does not establish superiority over persistence; evaluation years were inspected during development."
+  ],
+  "baseline_origin_version": "0.7",
+  "release_preparation_date": "2026-10-27"
+}

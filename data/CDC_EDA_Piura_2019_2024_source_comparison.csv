@@ -1,0 +1,7 @@
+year,MINSA_open_CSV_episodes_over_5,CDC_dashboard_xlsx_episodes_over_5,difference,interpretation
+2019,41710,41935,225,small difference between releases; definitions/cutoffs not reconciled
+2020,20085,20271,186,small difference between releases; definitions/cutoffs not reconciled
+2021,24694,25294,600,small difference between releases; definitions/cutoffs not reconciled
+2022,32699,32894,195,small difference between releases; definitions/cutoffs not reconciled
+2023,54311,54509,198,small difference between releases; definitions/cutoffs not reconciled
+2024,15451,57363,41912,large missingness in national extract from epidemiological week 16

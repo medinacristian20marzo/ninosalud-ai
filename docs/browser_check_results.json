@@ -1,0 +1,49 @@
+{
+  "mode": "Exact HTML/JS DOM injection in headless Chromium; local file navigation blocked by environment. Not a hosted URL or Safari deployment test.",
+  "tabs_tested": [
+    "epi",
+    "climate",
+    "territory",
+    "edaV07",
+    "signalV09",
+    "regionalV10",
+    "methods"
+  ],
+  "select_tests": 71,
+  "errors": [],
+  "screenshots": [
+    "04_territorial_context.png",
+    "03_model_evaluation.png",
+    "07_sensitivity.png",
+    "01_overview.png",
+    "02_weekly_data.png",
+    "06_research_evidence.png",
+    "05_regional_audit.png"
+  ],
+  "eda_2025_coverage_text": "Reported EDA episodes \u00b7 2025\n38,812\nWeekly EDA observations\n53\nWeeks with incomplete observed climate\n4\n\nThis is the reported number of episodes across all ages, not laboratory-confirmed incidence or unique patients.",
+  "regional_selector_ids": [
+    {
+      "id": "regionalYearV10",
+      "values": [
+        "2025",
+        "2026",
+        "2023"
+      ]
+    },
+    {
+      "id": "regionalProvinceV10",
+      "values": [
+        "AYABACA",
+        "HUANCABAMBA",
+        "MORROPON",
+        "PAITA",
+        "PIURA",
+        "SECHURA",
+        "SULLANA",
+        "TALARA"
+      ]
+    }
+  ],
+  "mobile_scroll_width": 390,
+  "mobile_viewport_width": 390
+}

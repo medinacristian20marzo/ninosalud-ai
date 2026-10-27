@@ -1,0 +1,55 @@
+{
+  "source": {
+    "project": "NinoSalud v1.0 regional dengue surveillance completeness / symptom-to-recorded-attendance timing",
+    "raw_source": "GORE Piura open-data regional dengue CSV, supplied by participant",
+    "dictionary": "Formato_DiccionarioDatos_DENGUE_0.xlsx, supplied by participant",
+    "source_url": "https://www.datosabiertos.gob.pe/dataset/casos-de-dengue-en-la-regi%C3%B3n-piura-gobierno-regional-piura",
+    "not_case_confirmed": true,
+    "patient_level_rows_in_bundle": false
+  },
+  "year_row_counts": {
+    "2026": 10274,
+    "2025": 12242,
+    "2023": 24566
+  },
+  "year_cut_snapshots": [
+    {
+      "cohort_year": "2023",
+      "cut_date": "20230517",
+      "rows": 24566
+    },
+    {
+      "cohort_year": "2025",
+      "cut_date": "20260702",
+      "rows": 12242
+    },
+    {
+      "cohort_year": "2026",
+      "cut_date": "20260702",
+      "rows": 10274
+    }
+  ],
+  "piura_region_filtered_count": 46757,
+  "geographic_exclusions": 325,
+  "outside_piura_department_count": 325,
+  "notes": [
+    "ANO is a surveillance cohort/year code; notification/attendance date may belong to an adjacent calendar year.",
+    "The data dictionary defines FECHA_NOTIFICACION as date the person attended the health center, NOT proven date of central reporting. Symptom-to-visit interval is not reporting delay.",
+    "The extract contains 2023 data cut in May, no 2024 records, and 2025 and partial 2026 from a July 2 2026 snapshot.",
+    "The regional dataset page describes confirmed plus possible cases, but this CSV has no diagnosis-status column.",
+    "FECHA_INGRESO precedes FECHA_NOTIFICACION in many rows. Do not compute a trusted reporting lag from their difference.",
+    "No individual IDs are present: do not deduplicate apparently identical records or identify people.",
+    "Dataset for 2025 is not directly comparable with national confirmed-only counts.",
+    "No raw case-level data, sex, age, locality or health center names included in shared prototype.",
+    "2026 comparison is only year-to-date; 2023 only Jan-May.",
+    "Delay summarization uses only nonnegative onset-to-attendance intervals <= 90 days. Excluded counts remain visible.",
+    "Calendar-month series uses date of recorded attendance in the cohort calendar year (boundary spillovers excluded)."
+  ],
+  "rows_after_scope_filter": 46757,
+  "excluded_negative_onset_to_attendance": 66,
+  "excluded_onset_to_attendance_gt90": 151,
+  "system_entry_before_attendance": 24389,
+  "attendance_after_extract_cut": 309,
+  "attendance_in_other_calendar_year": 107,
+  "median_overall_filtered_valid_days": 2.0
+}
