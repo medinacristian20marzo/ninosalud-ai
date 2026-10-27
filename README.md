@@ -4,7 +4,7 @@
 ### Climate, surveillance and reproducible evidence in northern Peru
 
 **An independent, undergraduate-level research prototype by Cristian Daniel Medina Gomez.**
-Built with substantial AI-assisted programming and research support. Release 1.2, 27 October 2026.
+Developed with AI support. Release 1.2, 27 October 2026.
 
 ![NiñoSalud research dashboard](assets/01_overview.png)
 
@@ -90,7 +90,7 @@ docs/       Research note, project brief, methods, source and verification recor
 This is a student research and learning tool. Outcomes are reported episodes or notifications, not unique people or independently adjudicated infections. Provincial results do not generalize to patients. Reporting revisions, missing climate fields, small effective samples and the pandemic-era reference period limit interpretation. No prospective validation or independent outbreak labels are available. A historical exceedance is not a proven epidemic or an early warning. The 2026 territorial snapshots are contextual and are **not historical model inputs**.
 
 ## Contribution and AI assistance
-The project owner selected the Peru-focused question, collected source files, directed iterative revisions and tested the interface. Generative AI materially assisted code development, analysis, documentation and packaging. The release records which calculations and tests were rerun. This acknowledgement does not imply independent scientific review or external endorsement. See [contributions](docs/CONTRIBUTIONS.md).
+The project owner selected the Peru-focused question, collected source files, directed iterative revisions and tested the interface. Generative AI was used to support data analysis and documentation. The release records which calculations and tests were rerun. This acknowledgement does not imply independent scientific review or external endorsement. See [contributions](docs/CONTRIBUTIONS.md).
 
 ## Reuse
 Original project code and original explanatory text are offered under the [MIT License](LICENSE). This does **not** relicense CDC/MINSA, GORE Piura, CENEPRED, INEI or SUSALUD source data. Derived summaries retain source attribution; upstream terms must be checked before any further reuse. See [data terms](DATA_TERMS.md).
